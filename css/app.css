@@ -1,26 +1,29 @@
+/* Font */
 body {
-	font-family: 'Inter', sans-serif;
+	font-family: 'Poppins', sans-serif;
 }
+
 /* Navbar */
 .navbar {
-	background-color: #231166 !important;
+	background-color: #ecf1f4 !important;
 }
 .navbar .nav-item {
 	margin: 0 !important;
 	padding: 0 !important;
 }
 .navbar .nav-item .nav-link {
-	font-size: 14px;
-	font-style: normal;
-	color: white;
-	margin: 0 20px;
+	font-size: 15px;
+	font-weight: 400;
+	color: #636972;
+	margin: 0 15px;
+	padding: 0;
 	transition: all 0.4s ease-in-out;
 }
 
 .navbar .nav-item .nav-link:hover {
-	color: #e4662b;
+	color: #55bc7e;
 }
 
 .navbar .nav-item .nav-link.active {
-	color: #e4662b;
+	color: #55bc7e;
 }
